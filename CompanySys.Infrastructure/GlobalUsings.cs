@@ -1,0 +1,11 @@
+﻿global using CompanySys.Application.Common.Interfaces;
+global using CompanySys.Application.Contracts.Authentication;
+global using CompanySys.Domain.Abstractions;
+global using CompanySys.Domain.Entities;
+global using CompanySys.Domain.Errors;
+global using CompanySys.Infrastructure.Identity;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using System.Security.Claims;

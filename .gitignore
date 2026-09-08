@@ -1,0 +1,23 @@
+## .NET Core
+bin/
+obj/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+*.userosscache
+*.sln.docstates
+
+## Secrets
+appsettings.Development.json
+appsettings.Local.json
+**/secrets.json
+*.pfx
+
+## Logs
+Logs/
+
+## OS files
+.DS_Store
+Thumbs.db
